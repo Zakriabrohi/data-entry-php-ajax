@@ -1,0 +1,1 @@
+CREATE TABLE sindhi(demanderid int , enrollmentid int not null PRIMARY KEY AUTO_INCREMENT ,  enrollment_class text , enrollment_mediam text , enrollment_no_of_students int(255) , no_of_boys int (255) , no_of_girls int (255) , no_of_muslims int (255) , no_of_nomuslims int(255) , FOREIGN KEY (demanderid) REFERENCES demander(demanderid))ENGINE=INNODB;
